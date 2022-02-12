@@ -34,3 +34,9 @@ print(premier_dernier)
 
 pos_carlos = liste.index("Carlos")
 print(f"Carlos est arrivé en position {pos_carlos}.")
+
+print(sorted(nombres))
+
+film = "le seigneur des anneaux"
+film.title()
+print(film)

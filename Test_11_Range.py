@@ -1,0 +1,6 @@
+interval = range(0, 40, 3)
+print(interval.start)
+print(interval.stop)
+print(interval.step)
+list_range = list(interval)
+print(list_range)
