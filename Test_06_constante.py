@@ -1,0 +1,1 @@
+CHAINE = "Pierre"
