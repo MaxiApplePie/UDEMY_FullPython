@@ -17,7 +17,7 @@ extensions_liste = ['mp3', 'wav', 'flac', 'avi', 'mp4', 'gif', 'bmp', 'png', 'jp
 dirs = {
     '.mp3': 'Musique',
     '.wav': 'Musique',
-    '.flac': 'Musique',
+    '.flac': 'Musique', 
     '.avi': 'Videos',
     '.mp4': 'Videos',
     '.gif': 'Videos',
