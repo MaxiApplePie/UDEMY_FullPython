@@ -1,6 +1,11 @@
 import os
 import json
 import logging
+    
+
+# QTWidgets.QVBoxLayout()
+# QTWidgets.QLineEdit()
+# QTWidgets.QListWidget()
 
 CUR_DIR = os.path.dirname(__file__)
 DATA_FILE = os.path.join(CUR_DIR, 'data', 'movies.json')
