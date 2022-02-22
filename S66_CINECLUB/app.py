@@ -1,6 +1,5 @@
 from PySide2 import QtWidgets, QtCore
-import movie as mv
-from movie import Movie
+from movie import Movie, get_movies
 
 class App(QtWidgets.QWidget):
 
@@ -31,7 +30,7 @@ class App(QtWidgets.QWidget):
         self.line_movie_name.returnPressed.connect(self.add_movie)
 
     def populate_movies(self):
-        movies = mv.get_movies() 
+        movies = get_movies() 
         for movie in movies:
             lw_item = QtWidgets.QListWidgetItem(movie.title)
             lw_item.setData(QtCore.Qt.UserRole, movie)
